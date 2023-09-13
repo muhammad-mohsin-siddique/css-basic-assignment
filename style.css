@@ -1,0 +1,36 @@
+nav ul{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: black;
+    outline:  #4CAF50 solid 7px;
+    box-shadow: inset;
+}
+
+ul li{
+    
+    background-color: #04AA6D;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.container{
+    width: 100%;
+    border: 2px solid black;
+    height: 500px;
+    background-image: url(./pic/HOME-Image.jpg);
+}
